@@ -23,3 +23,5 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+Answer: The time complexity of this implementation is Θ(∣V∣^2+∣E∣). ∣V∣ is the number of nodes and ∣E∣ is the number of edges in the graph. Because the priority queue is implemented as a simple array requiring O(∣V∣^2) operations to repeatedly sort and extract the smallest elemen while relaxing all edge adds O(∣E∣).
